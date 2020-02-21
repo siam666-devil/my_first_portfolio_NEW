@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+font-family: 'Saira Extra Condensed';
+}
+/* Utility Class */
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 30px;
+}
+.main-paragraph {
+  color: #333;
+}
+.biography-heading {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    color: #444;
+}
+.work-header {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+  letter-spacing: 5px;
+  color: #333;
+}
+.work-paragraph {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5rem;
+  
+}
+.btn {
+  background-image: linear-gradient(45deg,rgb(165, 13, 64),#F50057 );
+  padding: 15px 30px;
+  color: #fff;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-image: linear-gradient(45deg,rgb(235, 9, 65),rgb(165, 13, 64));
+  font-weight: bold;
+  box-shadow: 2px 2px 10px rgb(223, 30, 68);
+}
+/* Header */
+#header-top {
+  background: url("../images/header-bg.png") no-repeat center center/cover;
+}
+.container {
+  padding: 2%;
+  display: block;
+  height: 100vh;
+}
+.content-box {
+  float: left;
+  width: 45%;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.color-heading {
+  font-size: 4rem;
+  color: #F50057;
+  letter-spacing: 4px;
+}
+.image-box {
+  float: left;
+  width: 47%;
+  padding: 20px;
+}
+.image-box img {
+  width: 80%;
+}
+/* BIOGRAPHY */
+#biography {
+  background: url('../images/biography-bg.png') no-repeat center center/cover;
+}
+/* Latest Work */
+.showcase-container {
+  background: url("../images/latest-work-bg.png") no-repeat center center/cover;
+  height: 50vh;
+  width: 100%;
+}
+.showcase { 
+  width:80%; 
+  height:100%; 
+  margin-left: 10rem;
+  background: url('../images/latest-work-bg.png') no-repeat center center/cover;
+} 
+.work1,
+.work2,
+.work3 {
+  float: left;
+  width: 28%;
+  display: block;
+  margin-left: 40px 
+}
+.work1 img {
+  width: 95%;
+  margin: 2px;
+
+}
+.work2 img {
+  width: 95%;
+  margin: 2px;
+
+}
+.work3 img {
+  width: 95%;
+  margin: 2px;
+}
+.work1 img:hover {
+  box-shadow: -2px -2px 20px gray;
+}
+.work2 img:hover {
+  box-shadow: -2px -2px 20px gray;
+}
+.work3 img:hover {
+  box-shadow: -2px -2px 20px gray;
+}
+
+
+/* Footer */
+#main-footer {
+  background: url("../images/footer-bg.png") no-repeat center center/cover;
+  height: 80vh;
+  width: 100%;
+}
+.last {
+  margin-top: 2rem;
+  border: none;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-header {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin: 10px;
+  letter-spacing: 2px;
+  color: #444;
+}
+.footer-pargraph {
+  padding: 20px;
+  color: #696969;
+  font-size: 13px;
+  text-align: center;
+}
+.footer-main-paragraph {
+  color: #292929;
+}
